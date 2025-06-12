@@ -1,0 +1,10 @@
+{
+  "homepage": "https://kmnnmew.github.io/systemPrograming/",
+
+  "scripts": {
+  "deploy": "gh-pages -d . --repo https://github.com/kmnnmew/systemPrograming.git"
+  },
+  "dependencies": {
+    "gh-pages": "^6.3.0"
+  }
+}
