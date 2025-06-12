@@ -1,10 +1,17 @@
 {
-  "homepage": "https://kmnnmew.github.io/systemPrograming/",
-
+  "name": "system-programming-server",
+  "version": "1.0.0",
+  "main": "main.js",
+  "type": "commonjs",
   "scripts": {
-  "deploy": "gh-pages -d . --repo https://github.com/kmnnmew/systemPrograming.git"
+    "start": "node main.js"
   },
-  "dependencies": {
-    "gh-pages": "^6.3.0"
-  }
+  "directories": {
+    "lib": "lib"
+  },
+  "devDependencies": {},
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
 }
