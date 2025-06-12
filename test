@@ -1,0 +1,1 @@
+select row_number() over (order by cust_no) " ", cust_no 회원번호, cust_nm 회원 성명, phone 핸드폰 번호, address 주소, to_char(join_date, 'yyyy-mm-dd') 가입일자, (case stat_fg when '0' then '정상' when '1' then '휴면' when '2' then '탈퇴' else null end) 상태구분 from member_tbl order by 2 desc;
